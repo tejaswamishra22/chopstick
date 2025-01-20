@@ -5,7 +5,7 @@ class Node:
 
 def dfs(node, visited=None):
     if visited is None:
-        visited = set()
+        set.add(node);
     
     if node in visited:
         return
