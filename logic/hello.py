@@ -11,7 +11,6 @@ def dfs(node, visited=None):
         return
     
     visited.add(node)
-    print(node.values)
     
     for child in node.children:
         dfs(child, visited)
