@@ -19,7 +19,7 @@ def dfs(node, visited=None):
     
     for child in node.children:
         dfs(child, visited)
-
+#game example
 # Example usage
 root = Node([1, 2, 3, 4, 5])
 
