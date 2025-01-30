@@ -21,6 +21,7 @@ def dfs(node, visited=None):
         dfs(child, visited)
 #game example
 # Example usage
+# will use a dfs to simulate a game tree
 root = Node([1, 2, 3, 4, 5])
 
 dfs(root)
